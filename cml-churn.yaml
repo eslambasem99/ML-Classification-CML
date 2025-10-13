@@ -23,8 +23,7 @@ jobs:
           python script.py
 
       - name: Generate Report
-        env:
-          REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        
         run: |
 
           # Get the report
