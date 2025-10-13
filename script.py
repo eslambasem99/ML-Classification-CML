@@ -41,7 +41,7 @@ X = df.drop(columns=['Exited'], axis=1)
 y = df['Exited']
 
 ## Split to train and test
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, shuffle=True, random_state=45, stratify=y)
+X_train, X_test, y_train, y_test = train_test_splits(X, y, test_size=0.2, shuffle=True, random_state=45, stratify=y)
 
 
 ## --------------------- Data Processing ---------------------------- ##
