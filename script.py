@@ -8,7 +8,7 @@ from imblearn.over_sampling import SMOTE
 from PIL import Image
 
 ## skelarn -- preprocessing
-from sklearn.model_selection import train_test_splits
+from sklearn.model_selection import train_test_split
 from sklearn.impute import SimpleImputer
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
 from sklearn.pipeline import Pipeline, FeatureUnion
